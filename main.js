@@ -186,7 +186,6 @@
 
   /* ---------- footer fan intro ---------- */
   const fan=d.querySelector('.fan');
-  if(fan) gsap.from(fan,{y:200,duration:1.2,ease:'expo.out',stagger:.07,scrollTrigger:{trigger:fan,start:'top 95%'}});
 
   addEventListener('load',()=>ScrollTrigger.refresh());
 })();
