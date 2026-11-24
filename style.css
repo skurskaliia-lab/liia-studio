@@ -316,6 +316,9 @@ html:not(.js) .curtain{display:none}
   .pill-form{flex-wrap:wrap}.pill-form .em{margin-left:0}
   .ab-photo{--w:34vw!important}
   .next img{display:none}
+  .cta .doodle{display:none}
+  .pill-form .ico{flex:0 0 48px;width:48px}
+  .contact .doodle{opacity:.35}
 }
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
